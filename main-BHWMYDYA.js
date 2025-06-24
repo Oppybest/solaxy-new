@@ -44969,7 +44969,7 @@ var oY = vP()
                 endTime: "",
                 paused: !1,
                 currentStep: 0,
-                usdRaised: 0,
+                usdRaised: 58588044.27,
                 maxTokensToBuy: 0,
                 oneEth: 0,
                 oneBnb: 0,
@@ -45754,7 +45754,7 @@ var oY = vP()
                 title: "widget.round_title",
                 endDate: 1750686900
             }],
-            this.isSoldOut = !1,
+            this.isSoldOut = !0,
             this.isLastStage = !0,
             this.getNativeAmount = (c, p) => N(this, null, function*() {
                 let d = 0;
@@ -48202,7 +48202,7 @@ var ob = ( () => {
             this.eventService = s,
             this.walletConnectService = o,
             this.isLoaded = !1,
-            this.isSoldOut = !1,
+            this.isSoldOut = !0,
             this.notificationUrl = B.sseUrl,
             this.isProduction = B.production,
             this.translate.setDefaultLang("en"),
@@ -51830,7 +51830,7 @@ var bb = ( () => {
             this.ethTokens = 0,
             this.totalStaked = 0,
             this.userBal = 0,
-            this.isSoldOut = !1,
+            this.isSoldOut = !0,
             this.yAxisTickFormattingFn = this.yAxisTickFormatting.bind(this);
             let c = 0
               , p = new Date
@@ -53116,7 +53116,7 @@ var Tb = ( () => {
             this.isBsNetwork = !1,
             this.isWert = !1,
             this.isMobile = !1,
-            this.isSoldOut = !1,
+            this.isSoldOut = !0,
             this.claimMode = !1,
             this.isLastStage = !1,
             this.isNative = !0,
